@@ -11,9 +11,9 @@ Blog: Contains articles I've written about technology, programming, and related 
 Contact Form: Allows visitors to send me messages directly from the website.
 
 <h1>Technologies Used</h1>
-Frontend: React.js, HTML, CSS, JavaScript
-Backend: Node.js, Express.js
-Deployment: Vercel (frontend), Vercel (backend)
+<strong>Frontend:</strong> React.js, HTML, CSS, JavaScript<br/>
+<strong>Backend:</strong> Node.js, Express.js<br/>
+<strong>Deployment:</strong> Vercel (frontend), Vercel (backend)
 
 <h1>Getting Started</h1>
 To run this project locally, you'll need to have ReactJS, Node.js installed on your machine.
