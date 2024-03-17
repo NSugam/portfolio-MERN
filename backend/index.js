@@ -18,6 +18,9 @@ const limiter = rateLimit({
     max: 2, // Limit each IP to 2 request per 5 minute
 });
 
+app.get('/', (req, res) => {
+    res.send("Portfolio Backend: Server is working !");
+});
 
 app.listen(PORT, ()=> {
     console.log("\nServer is running on PORT:", PORT)
