@@ -38,9 +38,9 @@ export default function MainBody() {
                     <p className="location-text">from Bangalore, Karnataka</p><br />
 
                     <div className="container bg-light col-sm-2 col-6 rounded-5 appearfromRight">
-                        <a href="https://www.facebook.com/ns.neupane09/" target='_blank'> <i className="bi-facebook fs-3 me-3" style={{ color: 'blue' }}></i> </a>
-                        <a href="https://www.instagram.com/ns_neupane09" target='_blank'> <i className="bi-instagram fs-3 me-3" style={{ color: 'red' }}></i> </a>
-                        <a href="https://www.linkedin.com/in/sugamneupane/" target='_blank'> <i className="bi-linkedin fs-3 me-3" style={{ color: 'darkblue' }}></i> </a>
+                        <a href="https://www.facebook.com/ns.neupane09/" target='_blank' rel="noreferrer"> <i className="bi-facebook fs-3 me-3" style={{ color: 'blue' }}></i> </a>
+                        <a href="https://www.instagram.com/ns_neupane09" target='_blank' rel="noreferrer"> <i className="bi-instagram fs-3 me-3" style={{ color: 'red' }}></i> </a>
+                        <a href="https://www.linkedin.com/in/sugamneupane/" target='_blank' rel="noreferrer"> <i className="bi-linkedin fs-3 me-3" style={{ color: 'darkblue' }}></i> </a>
                         <a href="https://github.com/NSugam" target='_blank'> <i className="bi-github fs-3" style={{ color: 'black' }}></i> </a>
                     </div>
 
