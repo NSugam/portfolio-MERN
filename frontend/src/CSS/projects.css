@@ -1,0 +1,48 @@
+.Projectcontainer .card {
+    width: 320px;
+    height: 230px;
+    border-radius: 20px;
+    box-shadow: 0 35px 80px rgba(0,0,0,0.15);
+    transition: 0.5s;
+}
+
+.Projectcontainer .card:hover {
+    height: 400px;
+}
+
+.Projectcontainer .card .imgBx {
+    overflow: hidden;
+    top: 10px;
+    width: 300px;
+    height: 150px;
+    border-radius: 15px;
+    transition: 0.5s;
+}
+.Projectcontainer .card:hover .imgBx {
+    top: -80px;
+    scale: 0.75;
+    box-shadow: 0 15px 45px rgba(0,0,0,0.2);
+}
+.imgBx:hover {
+    scale: 1.2 !important;
+    transition: 0.5s;
+}
+
+.Projectcontainer .card .imgBx img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.Projectcontainer .card .content {
+    
+    top: 180px;
+    height: 40px;
+    translate: 0.5s;
+}
+
+.Projectcontainer .card:hover .content {
+    top: 80px;
+    height: 300px;
+    transition: 0.8s;
+}

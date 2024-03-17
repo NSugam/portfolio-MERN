@@ -1,0 +1,141 @@
+.card {
+  padding: 5px;
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  border: 2px solid white;
+  transform: scale(1.05);
+}
+
+.bg-image {
+  background-image: url('https://th.bing.com/th/id/OIP.U9OobUdw8h90gCGgPjIr7wHaO0?rs=1&pid=ImgDetMain');
+  background-position: center;
+  background-size:cover;
+}
+
+/* Main-text writing animation START */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: #fff }
+}
+.writing-animation {
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 3px solid #fff;
+  animation: typing 1s steps(50), blink-caret 1s infinite;
+}
+/* Main-text writing animation END */
+
+
+/* Floating animations in different directions START */
+@keyframes floatY {
+  0% { transform: translateX(0); }
+  50% { transform: translateY(-10px); }
+  100% { transform: translateX(0); }
+}
+@keyframes appearfromRight {
+  0% { opacity: 0; transform: translateX(1000px); }
+  50% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes appearfromLeft {
+  0% { opacity: 0; transform: translateX(-1000px); }
+  50% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes appearfromTop {
+  0% { opacity: 0; transform: translateY(-1000px); }
+  50% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+@keyframes appearfromBottom {
+  0% { opacity: 0; transform: translateY(1000px); }
+  50% { opacity: 1; transform: translateX(0); }
+  100% { opacity: 1; transform: translateX(0); }
+}
+
+.floatOnY {
+  animation: floatY 5s infinite;
+}
+.appearfromRight {
+    animation: appearfromRight 3s;
+}
+.appearfromLeft {
+    animation: appearfromLeft 2s;
+}
+.appearfromTop {
+    animation: appearfromTop 1s;
+}
+.appearfromBottom {
+    animation: appearfromBottom 3s;
+}
+/* Floating animations in different directions END */
+
+
+/* Scrollbar CSS START */
+::-webkit-scrollbar {
+width: 12px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+background: #f1f1f1;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+background: rgba(49, 150, 217, 0.624);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+background: skyblue;
+}
+/* Scrollbar CSS END */
+
+
+
+/* Default styles and Media Queries for MainBody text */
+.welcome-text {
+  margin-top: 20px;
+  font-size: 100px;
+  line-height: 1;
+}
+.main-text {
+  font-size: 100px;
+  line-height: 1;
+}
+.location-text {
+  font-size: 30px;
+  line-height: 1;
+}
+.content-heading-text {
+  padding: 10px;
+  font-size: 70px;
+  line-height: 1.2;
+}
+/* Media query for mobile devices START */
+@media (max-width: 768px) {
+  .welcome-text {
+    font-size: 80px;
+  }
+  .main-text {
+    font-size: 30px;
+  }
+  .location-text {
+      font-size: 20px;
+  }
+  .content-heading-text {
+    padding: 10px;
+    font-size: 55px;
+    line-height: 1.2;
+  }
+}
+/* Media query for mobile devices END*/
+
