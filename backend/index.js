@@ -1,4 +1,3 @@
-const { recaptcha } = require('express-recaptcha');
 const sendMail = require("./sendMail");
 const express = require("express")
 const cors = require("cors")

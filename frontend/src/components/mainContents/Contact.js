@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import axios from 'axios';
 
 export default function Contact(props) {
-    const hostname = process.env.REACT_APP_LOCALHOST
+    const hostname = process.env.REACT_APP_HOSTNAME
 
     const [userInput, setUserInput] = useState({})
     const handleInput = (e) => {
@@ -17,12 +17,12 @@ export default function Contact(props) {
         e.preventDefault();
         try {
             await props.showAlert("Sending your message...", "red", 2000);
-            await axios.post(hostname + '/api/sendMail', userInput);
+            await axios.post(hostname+'/api/sendMail', userInput);
             await props.showAlert("Message Sent! I will respond to you probably within 24 hours!", "lightgreen", 4000);
             await e.target.reset();
             setUserInput({});
         } catch (error) {
-            if(error.response.status == 429){
+            if(error.response.status === 429){
                 props.showAlert("Too many request! Try again later", "red", 3000);
                 return
             }
