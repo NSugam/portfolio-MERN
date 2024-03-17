@@ -16,7 +16,7 @@ export default function Contact(props) {
     const submitData = async (e) => {
         e.preventDefault();
         try {
-            await props.showAlert("Sending your message...", "red", 2000);
+            await props.showAlert("Sending your message...", "red", 1000);
             await axios.post(hostname+'/api/sendMail', userInput);
             await props.showAlert("Message Sent! I will respond to you probably within 24 hours!", "lightgreen", 4000);
             await e.target.reset();
