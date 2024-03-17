@@ -32,7 +32,7 @@ export default function Projects(props) {
                 </p>
                 <div className='card-footer mt-4'>
                   <a href="https://github.com/NSugam/book-my-ride-app" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2`} target="_blank" rel="noopener">Github Repository</a>
-                  <a href="#" target='_blank' className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
+                  <a href="#" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
                 </div>
               </div>
             </div>
@@ -50,7 +50,7 @@ export default function Projects(props) {
                 </p>
                 <div className='card-footer mt-4'>
                   <a href="https://github.com/NSugam/Food-delivery-system-django" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2`} target="_blank" rel="noopener">Github Repository</a>
-                  <a href="#" target='_blank' className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
+                  <a href="#" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
                 </div>
               </div>
             </div>
@@ -68,7 +68,7 @@ export default function Projects(props) {
                 </p>
                 <div className='card-footer mt-4'>
                   <a href="https://github.com/NSugam/Food-delivery-system-django" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2`} target="_blank" rel="noopener">Github Repository</a>
-                  <a href="#" target='_blank' className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
+                  <a href="#" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
                 </div>
               </div>
             </div>
@@ -86,7 +86,7 @@ export default function Projects(props) {
                 </p>
                 <div className='card-footer mt-5'>
                   <a href="https://github.com/NSugam/todo-app" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2 disabled`} target="_blank" rel="noopener">Github Repository</a>
-                  <a href="https://todo-app-nsugam.vercel.app" target='_blank' className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block`}>Live Demo</a>
+                  <a href="https://todo-app-nsugam.vercel.app" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block`}>Live Demo</a>
                 </div>
               </div>
             </div>
@@ -104,7 +104,7 @@ export default function Projects(props) {
                 </p>
                 <div className='card-footer mt-4'>
                   <a href="https://github.com/NSugam/react-TextUtils" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2`} target="_blank" rel="noopener">Github Repository</a>
-                  <a href="https://react-text-utils-psi.vercel.app/" target='_blank' className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block`}>Live Demo</a>
+                  <a href="https://react-text-utils-psi.vercel.app/" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block`}>Live Demo</a>
                 </div>
               </div>
             </div>
@@ -121,7 +121,7 @@ export default function Projects(props) {
                   It is an essential tool for showcasing your talents and standing out in a competitive field.
                 </p>
                 <div className='card-footer mt-3'>
-                  <a href="https://github.com/NSugam/Food-delivery-system-django" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2 disabled`} target="_blank" rel="noopener">Github Repository</a>
+                  <a href="https://github.com/NSugam/portfolio-MERN" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2 disabled`} target="_blank" rel="noopener">Github Repository</a>
                   <a href="#home" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block`} >Live Demo</a>
                 </div>
               </div>
