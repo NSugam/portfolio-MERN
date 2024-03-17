@@ -31,19 +31,19 @@ export default function About(props) {
                 Let's connect and explore the possibilities together!
               </p>
               <div className='text-center'>
-                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'primary'} btn-floating m-1`} href="https://www.facebook.com/ns.neupane09/" target='_blank'>
+                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'primary'} btn-floating m-1`} href="https://www.facebook.com/ns.neupane09/" target='_blank' rel="noreferrer">
                   <i className="bi-facebook"></i>
                 </a>
 
-                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'danger'} btn-floating m-1`} href="https://www.instagram.com/ns_neupane09" target='_blank'>
+                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'danger'} btn-floating m-1`} href="https://www.instagram.com/ns_neupane09" target='_blank' rel="noreferrer">
                   <i className="bi-instagram"></i>
                 </a>
 
-                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'primary'} btn-floating m-1`} href="https://www.linkedin.com/in/sugamneupane/" target='_blank'>
+                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'primary'} btn-floating m-1`} href="https://www.linkedin.com/in/sugamneupane/" target='_blank' rel="noreferrer">
                   <i className="bi-linkedin"></i>
                 </a>
 
-                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'dark'} btn-floating m-1`} href="https://github.com/NSugam" target='_blank'>
+                <a className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'dark'} btn-floating m-1`} href="https://github.com/NSugam" target='_blank' rel="noreferrer">
                   <i className="bi-github"></i>
                 </a>
 
