@@ -2,10 +2,10 @@
 This is the repository for my portfolio website, built using the MERN (MongoDB, Express.js, React.js, Node.js) stack.
 
 <h1>Features</h1>
-Home Page: Introduces myself and provides a brief overview of my skills and experience.<br/>
-Projects Page: Showcases some of the projects I've worked on, with links to their live demos or source code.<br/>
-Blog: Contains articles I've written about technology, programming, and related topics.<br/>
-Contact Form: Allows visitors to send me messages directly from the website.<br/>
+Home Page: Introduces myself and provides a brief overview of my skills and experience.<br/><br/>
+Projects Page: Showcases some of the projects I've worked on, with links to their live demos or source code.<br/><br/>
+Blog: Contains articles I've written about technology, programming, and related topics.<br/><br/>
+Contact Form: Allows visitors to send me messages directly from the website.<br/><br/>
 
 <h1>Technologies Used</h1>
 <strong>Frontend:</strong> React.js, HTML, CSS, JavaScript<br/><br/>
