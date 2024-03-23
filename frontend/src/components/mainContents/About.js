@@ -12,22 +12,12 @@ export default function About(props) {
         <section className='container-fluid fs-5 text-center mt-3 mb-4' data-aos="fade-right" data-aos-duration="2000">
           <div className='row'>
 
-            {/* <div className='col-sm-4'>
+            <div className='col-sm-4'>
               {props.mode === 'light' ?
                 <img className='col-12' src="https://user-images.githubusercontent.com/69011963/137184767-79a13ec7-1bb3-4341-a6da-3a149c9c159a.gif" alt="My GIF" /> :
                 <img src='/about-dark.png' />
               }
-            </div> */}
-
-            <div className='col-sm-4'>
-              {props.mode === 'light' ?
-                <div class="badge-base LI-profile-badge" data-locale="en_US" data-size="large" data-theme="dark" data-type="HORIZONTAL" data-vanity="sugamneupane" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://in.linkedin.com/in/sugamneupane?trk=profile-badge">Sugam Neupane</a></div>
-              
-                :
-                <img src='/about-dark.png' />
-              }
             </div>
-
 
             <div className='col-sm-4 user-select-none mb-4'>
               <p>
