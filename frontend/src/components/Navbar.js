@@ -85,9 +85,9 @@ export default function Navbar(props) {
                 </a>
                 <ul className="dropdown-menu fira-sans-regular">
                   <li><a className="dropdown-item" href="https://forwardtechnicalblog.blogspot.com/" target='_blank' rel="noreferrer">My Blog</a></li>
+                  <li><a className="dropdown-item" href="https://bookmyride-frontend.vercel.app/" target='_blank' rel="noreferrer">BookMyRide (MERN)</a></li>
                   <li><a className="dropdown-item" href="https://react-text-utils-psi.vercel.app/" target='_blank' rel="noreferrer">Text Utilities (React)</a></li>
                   <li><a className="dropdown-item" href="https://todo-app-nsugam.vercel.app" target='_blank' rel="noreferrer">TODO-app (MERN)</a></li>
-                  <li><a className="dropdown-item" href="#">BookMyRide (MERN)</a></li>
                 </ul>
               </div>
             </ul>
@@ -109,6 +109,7 @@ export default function Navbar(props) {
             </a>
             <ul className="dropdown-menu fira-sans-regular">
               <li><a className="dropdown-item" href="https://forwardtechnicalblog.blogspot.com/" target='_blank' rel="noreferrer">My Blog</a></li>
+              <li><a className="dropdown-item" href="https://bookmyride-frontend.vercel.app/" target='_blank' rel="noreferrer">BookMyRide (MERN)</a></li>
               <li><a className="dropdown-item" href="https://react-text-utils-psi.vercel.app/" target='_blank' rel="noreferrer">Text Utilities (React)</a></li>
               <li><a className="dropdown-item" href="https://todo-app-nsugam.vercel.app" target='_blank' rel="noreferrer">TODO-app (MERN)</a></li>
               <li><a className="dropdown-item" href="#">BookMyRide (MERN)</a></li>

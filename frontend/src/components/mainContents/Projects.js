@@ -19,7 +19,7 @@ export default function Projects(props) {
 
           <div className="Projectcontainer d-flex justify-content-center row m-auto user-select-none" >
 
-          <div className={`card d-flex justify-content-center align-items-center col-6 mb-5
+            <div className={`card d-flex justify-content-center align-items-center col-6 mb-5
             ${props.mode === 'dark' ? 'bg-dark text-light' : 'bg-light text-dark'}`}>
               <div className={`imgBx position-absolute ${props.mode === 'dark' ? 'bg-light' : 'bg-light'}`}>
                 <img src="https://i.ibb.co/ZTDy52X/image.png" />
@@ -27,12 +27,12 @@ export default function Projects(props) {
               <div className="content overflow-hidden position-absolute">
                 <h3 className='over-the-rainbow-regular'>BookMyRide</h3>
                 <p className='ms-3 me-3'>
-                  This website offers a user-friendly platform to browse and book accommodations.
-                  With detailed descriptions, photos, and reviews, users can easily find their perfect stay.
+                  Discover the freedom of the open road with BookMyRide and make your next journey unforgettable.
+                  With easy online booking and a vast network of rental partners, finding the perfect ride is just a few clicks away.
                 </p>
                 <div className='card-footer mt-4'>
                   <a href="https://github.com/NSugam/book-my-ride-app" className={`btn btn-${props.mode === 'dark' ? 'light' : 'warning'} d-block mb-2`} target="_blank" rel="noopener">Github Repository</a>
-                  <a href="#" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block disabled`} >Live Demo</a>
+                  <a href="https://bookmyride-frontend.vercel.app/" target='_blank' rel="noreferrer" className={`btn btn-outline-${props.mode === 'dark' ? 'light' : 'success'} d-block`} >Live Demo</a>
                 </div>
               </div>
             </div>
