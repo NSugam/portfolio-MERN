@@ -8,7 +8,10 @@ const PORT = process.env.PORT
 // Configure globally required middleware
 const app = express()
 app.use(express.json())
-app.use(cors())
+app.use(cors({
+    origin: ['https://neupanesugam.com.np','https://bookmyride-frontend.vercel.app', 'http://localhost:3000'],
+    credentials: true
+}))
 
 // Configure rate limiting middleware
 const rateLimit = require("express-rate-limit");
